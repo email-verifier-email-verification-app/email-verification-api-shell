@@ -1,0 +1,6 @@
+http --form POST https://api.evasrv.com/email_verification/ \
+  cache-control:no-cache \
+  content-type:application/x-www-form-urlencoded \
+  email=test@domain.com \
+  user_API_token=ggd0143305f60a131dc5d458431e756e7d1b19ba \
+  =''
