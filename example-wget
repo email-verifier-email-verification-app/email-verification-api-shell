@@ -1,0 +1,7 @@
+wget --quiet \
+  --method POST \
+  --header 'cache-control: no-cache' \
+  --header 'content-type: application/x-www-form-urlencoded' \
+  --body-data 'email=test%40domain.com&user_API_token=ggd0143305f60a131dc5d458431e756e7d1b19ba&=' \
+  --output-document \
+  - https://api.evasrv.com/email_verification/
